@@ -1,12 +1,11 @@
 import ccxt
 import time
-import os
 from datetime import datetime
 
 okx = ccxt.okx({
-    'apiKey': os.getenv('OKX_API_KEY'),
-    'secret': os.getenv('OKX_SECRET'),
-    'password': os.getenv('OKX_PASSPHRASE'),
+    'apiKey': '51dfa216-427f-40fb-85d1-5292967594fa',
+    'secret': '125D94D97976E3428657EC0C522B8CD3',
+    'password': 'TradeBot@2025',
     'enableRateLimit': True,
     'options': {'defaultType': 'spot'}
 })
